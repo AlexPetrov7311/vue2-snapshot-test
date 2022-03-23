@@ -1,5 +1,14 @@
 # alligator-test
 
+https://www.digitalocean.com/community/tutorials/vuejs-vue-testing
+https://www.digitalocean.com/community/tutorials/testing-snapshot-testing-jest
+
+
+for update snapshots 
+yarn run test -- -u
+
+https://www.digitalocean.com/community/tutorials/vuejs-jest-snapshot-testing-in-vue
+
 ## Project setup
 ```
 yarn install

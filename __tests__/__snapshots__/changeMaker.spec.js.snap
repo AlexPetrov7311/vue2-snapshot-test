@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gives proper change. 1`] = `
+Object {
+  "dimes": 2,
+  "halfDollars": 3,
+  "nickels": 0,
+  "pennies": 4,
+  "quarters": 1,
+}
+`;
+
+exports[`gives proper change. 2`] = `
+Object {
+  "dimes": 0,
+  "halfDollars": 5,
+  "nickels": 0,
+  "pennies": 0,
+  "quarters": 1,
+}
+`;
+
+exports[`gives proper change. 3`] = `
+Object {
+  "dimes": 2,
+  "halfDollars": 0,
+  "nickels": 0,
+  "pennies": 4,
+  "quarters": 0,
+}
+`;
