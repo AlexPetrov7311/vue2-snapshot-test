@@ -42,7 +42,24 @@ describe('Mounted App', () => {
     button.trigger('click')
     expect(wrapper.vm.message).toBe('SUCCESS!')
   })
+
+  it('renders correctly', () => {
+    const wrapper = mount(App, {
+      data() {
+        return {
+          x1: 5,
+          x2: 57
+        }
+      }
+    })
+    expect(wrapper.element).toMatchSnapshot()
+  })
   
+  it('renders correctly with mock', () => {
+    Math.random = jest.fn(() => .35);
+    const wrapper = mount(App)    
+    expect(wrapper.element).toMatchSnapshot()
+  })
 
 })
 
